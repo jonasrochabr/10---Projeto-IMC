@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cauculadora IMC</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+
+    <div class="container">
+            <main class="card">
+                <form action="">
+                    <h1 class="title">Cálculo de IMC</h1>
+                    <div class="input-wrapper">
+                        <label for="weight">Peso (kg)</label>
+                        <input 
+                            id="weight"
+                            type="text"
+                            placeholder="60" /> 
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="height">Altura (cm)</label>
+                        <input 
+                                id="height" 
+                                type="text" 
+                                placeholder="160" />
+                    </div>
+
+                    <button>Calcular IMC
+                        <img src="./assets/arrow.svg" alt="">
+                    </button>
+                </form>
+            </main>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
